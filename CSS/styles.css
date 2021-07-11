@@ -1,0 +1,169 @@
+/*****html-tags css*****/
+body {
+  background-color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  transition: background-color .5s;
+}
+
+.btn:hover {
+  background-color: inherit;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  display: inline-block;
+  margin-top: 120px;
+}
+
+h2 {
+  color: #66BFBF;
+  position: relative;
+  top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  background-color: none;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 3%;
+  border-color: #DDDDDD;
+  padding-bottom: 5px;
+}
+
+p {
+  font-family: cursive, serif;
+  font-size: 20px;
+}
+
+/*****top css*****/
+.top-container {
+  background-color: #B5EAEA;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 1240px;
+  top: 40px;
+}
+
+.abvh {
+  position: absolute;
+}
+
+.rel {
+  position: relative;
+  top: 3px;
+}
+/*****mid css*****/
+/*****profile and skills css*****/
+.profile {
+  background-color: #F9F9F9;
+  padding-top: 30px;
+}
+
+.profile-picture {
+  position: relative;
+  top: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.skills {
+  position: relative;
+  bottom: 33px;
+  background-color: #F9F9F9;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.basketball-picture{
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+
+.gaming-picture{
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.skill-row{
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.anchor-color {
+  color: #E96656;
+}
+
+/*****footer css*****/
+.contact-me {
+  position: relative;
+  right: 10px;
+  bottom: 40px;
+}
+
+.BUTTON_MKN {
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   padding: 5px;
+   background-color: #66BFBF;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_MKN:hover {
+   background: #66BFBF;
+   border: solid #FFFFFF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.footer-link{
+  padding-left: 30px;
+  margin-right: 30px;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
